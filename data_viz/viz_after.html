@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>自分(改善後)とAIのデータ比較</title>
+        <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+        <style>
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                display: flex;
+            }
+            </style>
+    </head>
+    <body>
+        <div>
+            <div id="div-speed"></div>
+            <div id="div-throttle"></div>
+            <div id="div-brake"></div>
+            <div id="div-gear"></div>
+            <div id="div-rpm"></div>
+            <div id="div-steer"></div>
+
+        </div>
+        <div id="div-position"></div>
+    </body>
+    <script src="data/my_data_after.js"></script>
+    <script src="data/cpu_data.js"></script>
+    <script src="my_viz.js"></script>
+</html>
